@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-todo-list-api"
+version = "0.1.0"
+description = "A simple To-Do List API"
+requires-python = ">=3.7, <=3.11"
+dependencies = [
+    "Flask>=2.0",
+    "SQLAlchemy>=1.4",
+    "gunicorn>=20.1.0"
+]
